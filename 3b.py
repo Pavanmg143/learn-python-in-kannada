@@ -7,6 +7,26 @@ print(full_name)
 message = "This is a Warning! "
 print(message*10)
 
+'''
+message = "This is a Warning!"
+for _ in range(10):
+    print(message)
+Output:
+pgsql
+Copy
+Edit
+This is a Warning!
+This is a Warning!
+This is a Warning!
+This is a Warning!
+This is a Warning!
+This is a Warning!
+This is a Warning!
+This is a Warning!
+This is a Warning!
+This is a Warning!
+'''
+
 print(message.upper())
 print(message.lower())
 print(message.strip())
